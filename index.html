@@ -240,10 +240,8 @@ AFRAME.registerComponent('terrain',{
   <!-- HERO -->
   <section class="hero">
     <a-scene class="hero3d" embedded vr-mode-ui="enabled:false" loading-screen="enabled:false"
-             renderer="alpha:true; antialias:true; colorManagement:true" background="transparent:true" aria-hidden="true">
-      <a-entity terrain></a-entity>
-      <a-entity camera="fov:70" position="0 9 19" rotation="-20 0 0"></a-entity>
-    </a-scene>
+    device-orientation-permission-ui="enabled: false"
+    renderer="alpha:true; antialias:true; colorManagement:true" background="transparent:true" aria-hidden="true">
     <div class="wrap">
       <p class="ey">Field portfolio &nbsp;·&nbsp; <b>35.08°N 106.65°W</b> &nbsp;·&nbsp; Albuquerque, NM</p>
       <h1>Ryan<br>Gendel</h1>
